@@ -7,6 +7,7 @@ interface Props {
 }
 
 const Detail: React.FC<Props> = (props): JSX.Element => {
+  console.log(props)
   /** state部分 **/
 
   /** effect部分 **/
