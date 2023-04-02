@@ -1,0 +1,7 @@
+type Above {
+  _id: ID
+  title: String
+  subtitle: String
+  avatar: String
+  background: String
+}
