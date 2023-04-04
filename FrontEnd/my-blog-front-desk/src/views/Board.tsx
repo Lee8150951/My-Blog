@@ -6,7 +6,7 @@ interface Props {
 
 }
 
-const Detail: React.FC<Props> = (props): JSX.Element => {
+const Board: React.FC<Props> = (props): JSX.Element => {
   /** state部分 **/
 
   /** effect部分 **/
@@ -15,10 +15,8 @@ const Detail: React.FC<Props> = (props): JSX.Element => {
 
   /** render **/
   return (
-    <div>
-      Detail
-    </div>
+    <div>留言板</div>
   );
 };
 
-export default Detail;
+export default Board;

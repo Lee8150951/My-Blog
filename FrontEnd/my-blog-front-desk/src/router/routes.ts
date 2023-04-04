@@ -26,6 +26,22 @@ const routes: RouteInterface[] = [
       title: '个人中心-MyBlog',
     },
   },
+  {
+    path: '/life',
+    name: 'life',
+    component: lazy(() => import('../views/Life')),
+    meta: {
+      title: '日常-MyBlog',
+    },
+  },
+  {
+    path: '/board',
+    name: 'board',
+    component: lazy(() => import('../views/Board')),
+    meta: {
+      title: '留言板-MyBlog',
+    },
+  },
 ];
 
 export default routes;

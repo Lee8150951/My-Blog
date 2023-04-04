@@ -1,4 +1,5 @@
 import React from 'react';
+import { ApolloClient, NormalizedCacheObject } from '@apollo/client';
 
 interface metaInterface {
   name?: string;
@@ -7,12 +8,13 @@ interface metaInterface {
 }
 
 interface routeInterface {
-  path: string,
-  name: string,
-  component: React.LazyExoticComponent<any>,
-  children?: routeInterface[],
-  meta?: metaInterface
+  path: string;
+  name: string;
+  component: React.LazyExoticComponent<any>;
+  children?: routeInterface[];
+  meta?: metaInterface;
   auth?: boolean;
+  client?: ApolloClient<NormalizedCacheObject>;
 }
 
 export type RouteInterface = routeInterface

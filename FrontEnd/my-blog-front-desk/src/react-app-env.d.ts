@@ -69,3 +69,15 @@ declare module '*.module.sass' {
   const classes: { readonly [key: string]: string };
   export default classes;
 }
+
+declare module '*.graphql' {
+  import { DocumentNode } from 'graphql';
+  const value: DocumentNode;
+  export default value;
+}
+
+declare module '*.gql' {
+  import { DocumentNode } from 'graphql';
+  const value: DocumentNode;
+  export default value;
+}

@@ -6,7 +6,7 @@ interface Props {
 
 }
 
-const Detail: React.FC<Props> = (props): JSX.Element => {
+const Life: React.FC<Props> = (props): JSX.Element => {
   /** state部分 **/
 
   /** effect部分 **/
@@ -15,10 +15,8 @@ const Detail: React.FC<Props> = (props): JSX.Element => {
 
   /** render **/
   return (
-    <div>
-      Detail
-    </div>
+    <div>日常</div>
   );
 };
 
-export default Detail;
+export default Life;

@@ -1,0 +1,18 @@
+# 导航栏信息
+type Navbar {
+  _id: ID
+  logo: String
+  title: String
+  # 主题
+  theme: Boolean
+  # 搜索栏
+  search: Boolean
+  # 生活
+  life: Boolean
+  # 分类
+  classify: Boolean
+  # 留言板
+  board: Boolean
+  # 关于
+  personal: Boolean
+}
